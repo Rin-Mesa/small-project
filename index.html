@@ -104,10 +104,10 @@
 
         </div>
         <div class="table">
-            <h2 class="table-foods" id="">FOODS SCHEDULE OF PNC</h2>
+            <h2 class="table-foods">FOODS SCHEDULE OF PNC</h2>
             <table>
                 <tr>
-                    <th class="time"></th>
+                    <th class="times">Time</th>
                     <th>Monday</th>
                     <th>Tuesday</th>
                     <th>Wednesday</th>
@@ -133,7 +133,7 @@
                 <tr>
                     <td class="times">Evening</td>
                     <td>សម្លរម្ចូរត្រកួន​<br>ឆាមីសួរ</td>
-                    <td>សម្លរប្រហើ <br>ឆាខ្ទឺមបារាំង</td>
+                    <td>សម្លរប្រហើរ<br>ឆាខ្ទឺមបារាំង</td>
                     <td>ឆាត្រកួន<br>ប្រហុកខ្ទិស</td>
                     <td>ឆាសណ្តែកបណ្ដុះ <br>សម្លរម្ចូរយួន</td>
                     <td>ឆាល្ពៅ <br>ស្ងោរជ្រក់</td>
@@ -169,60 +169,71 @@
         </div>
     </div>
     <div class="aerobic">
-        <h2 class="areobic-title" id="aerobic">AEROBIC At PNC</h2>
+        <h2 class="areobic-title" id="aerobic">AEROBIC AT PNC</h2>
         <div class="areobic-at-pnc">
-            <div class="areobic-card">
+            <div class="areobic-card grid1">
                 <img class="areobic-img" src="/Image/photo_2025-01-25_23-26-32.jpg" alt="">
             </div>
-            <div class="areobic-card">
+            <div class="areobic-card grid2">
                 <img class="areobic-img" src="/Image/photo_2025-01-25_23-26-40.jpg" alt="">
             </div>
-            <div class="areobic-card">
+            <div class="areobic-card grid3">
                 <img class="areobic-img" src="./Image/photo_2025-01-25_22-08-25.jpg" alt="">
             </div>
-            <div class="areobic-card">
+            <div class="areobic-card grid4">
                 <img class="areobic-img" src="/Image/photo_2025-06-18_16-47-56.jpg" alt="">
             </div>
-            <div class="areobic-card">
+            <div class="areobic-card grid5">
                 <img class="areobic-img" src="/Image/photo_2025-05-18_20-40-03.jpg" alt="">
             </div>
-            <div class="areobic-card">
+            <div class="areobic-card grid6">
                 <img class="areobic-img" src="/Image/photo_2025-04-08_22-50-49.jpg" alt="">
             </div>
         </div>
     </div>
-    <h2 class="cantactus-title" id="contactus">CANTACT US</h2>
     <div class="container">
-        <div class="form-section">
-            <h2>To receive the latest <span>PN NEWS</span></h2>
-            <p>Subscribe to our quarterly newsletter!<br />You will receive PN news as well as exclusive testimonials!
-            </p>
-            <form id="newsletterForm" novalidate>
-                <input type="email" id="email" placeholder="Email Address*" required />
-                <div class="error-msg" id="emailError">This field is required.</div>
-                <input type="text" id="firstName" placeholder="First Name" />
-                <input type="text" id="lastName" placeholder="Last Name" />
-                <input type="text" id="language" placeholder="Please input: French, English, or Khmer*" required />
-                <div class="error-msg" id="languageError">This field is required.</div>
-                <input type="text" id="country" placeholder="Country of residence*" required />
-                <div class="error-msg" id="countryError">This field is required.</div>
-                <div class="checkbox-group">
-                    <strong>I want to receive</strong><br />
-                    <label><input type="checkbox" name="communications" value="all" /> All communications</label>
-                    <label><input type="checkbox" name="communications" value="events" /> About events only</label>
-                    <label><input type="checkbox" name="communications" value="newsletter" /> Newsletter only</label>
-                </div>
-                <button class="btn" type="submit">Subscribe</button>
-            </form>
-            <div class="social-icons">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-linkedin-in"></i>
+        <h2 id="contactus">Contact us</h2>
+        <h2>Our general contact</h2>
+
+        <p class="description">Questions about donations, project ideas or partnership inquiries?</p>
+        <p class="sub-description">Get in touch with us using the form below!</p>
+
+        <form>
+            <div class="form-group">
+                <label for="subject">Subject of your message *</label>
+                <input type="text" id="subject" name="subject" required>
             </div>
-        </div>
-        <div class="image-section">
-            <img src="/Image/LIFE-1-1.png" alt="PN Students" />
-        </div>
+
+            <div class="half">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="half">
+                <label for="phone">Phone Number (optional)</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your message *</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-send">Send us a message →</button>
+        </form>
+
+        <p class="privacy-notice">
+            The information collected via this form is recorded in a confidential computerized file intended for
+            Passerelles Numériques only.
+            Since 2005, Passerelles Numériques has never shared, exchanged or sold your personal data and is committed
+            to never doing so.
+            In accordance with the Data Protection Act (Informatique et Libertés), you have the right to access,
+            rectify, delete, and oppose
+            the processing of your personal data. <span class="highlight">To exercise these rights</span>, please
+            contact Passerelles Numériques
+            either by email at contact@passerellesnumeriques.org or by mail at 40 rue Alexandre Dumas, 75015 Paris,
+            France.
+        </p>
     </div>
     <div class="location">
         <h2 class="location-tittel" id="map">LOCATION PNC AT CAMBODIA</h2>
@@ -279,7 +290,6 @@
                     <li>English/PL</li>
                 </ul>
             </div>
-
         </div>
     </footer>
 
