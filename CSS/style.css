@@ -820,13 +820,17 @@ ul li {
         flex-direction: column;
         padding: 10px 20px;
         align-items: center;
-        display: none;
+        position:relative;
+        display: block;
+        overflow-X: auto;
     }
 
     .menu {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         width: 100%;
+        display: block;
+        overflow-X: auto;
     }
 
     .menu a {
